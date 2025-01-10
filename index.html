@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK University Result 2024</title>
+    <style>
+        /* Reset some default styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #003399;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-top: 10px;
+        }
+
+        /* Container for Login and Table */
+        /* .container, .result-container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px;
+        } */
+
+        /* Form Heading */
+        h2 {
+            font-size: 1.6rem;
+            color: #003399;
+            margin-bottom: 20px;
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        /* input[type="text"], input[type="captcha"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: #f9f9f9;
+            transition: border 0.3s ease;
+        } */
+
+        /* input[type="text"]:focus, input[type="captcha"]:focus {
+            border-color: #003399;
+            outline: none;
+        } */
+
+        /* .refresh-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #104680;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        button {
+            
+            width: 100%;
+            padding: 14px;
+            font-size: 1rem;
+            background-color: #104680;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+           
+        } */
+         /* Common style for both buttons */
+.btn {
+    width: 48%; /* Set the width to take up equal space */
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #104680;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add space between buttons */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: #083358;
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+
+        /* button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        } */
+
+        /* Error Message */
+        .error-message {
+            color: red;
+            font-size: 0.9rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Result Table Styling */
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            padding-bottom: 50px;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        .grade-table {
+            margin-top: 20px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        #logout-btn {
+            padding: 12px 20px;
+            background-color: #4035ac;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #logout-btn:hover {
+            background-color: #e53935;
+            transform: translateY(-2px);
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .disclaimer-box {
+           
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding-top: 30px;
+        }
+
+        .disclaimer-title {
+            background-color: #ff5a5a;
+            color: white;
+            padding: 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .disclaimer-content {
+            padding: 15px;
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .disclaimer-content p {
+            margin: 10px 0;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <img src="https://result.mkuniversity.ac.in/ug_rev_3/images/head.png" alt="MK University Logo">
+</header>
+
+<h1>UG (CBCS) Revaluation Results Nov24 </h1>
+
+
+<div class="writting">
+    <div class="connect">
+        <table>
+            <tbody>
+                <tr>
+                    <th>Course</th>
+                    <th>Subject</th>
+                </tr>
+                <tr>
+                    <td>UG</td>
+                    <td>B.A / B.B.A / B.COM / B.SC</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Login Page -->
+<div class="container" id="login-container">
+    <h1>Login</h2>
+    <br>
+    <form id="login-form">
+
+        <div class="form-group">
+            <label for="username">Enter the Register Number:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="captcha">Enter CAPTCHA: <span id="captcha-text"></span></label>
+            <input type="text" id="captcha" name="captcha" required>
+        </div>
+        
+        <div class="button-group">
+            <button class="btn refresh-btn" onclick="location.reload()">Refresh</button>
+            <button type="submit" class="btn">Submit</button>
+        </div>
+        <p id="error-message" class="error-message"></p>
+        
+    </form>
+</div>
+
+
+<!-- Result Display Page -->
+<div class="result-container" id="result-container" style="display: none;">
+    <h2>Your Result</h2>
+    <div id="result-content"></div>
+    <button id="logout-btn">Logout</button>
+</div>
+
+<script>
+    // Sample users for authentication with table results
+    const users = {
+        'C2C18741': {
+            username: 'C2C18741',
+            captcha: '1234',
+            result: `
+                <div>
+        
+                    <p>Reg.No.: <b>C2C18741</b> &nbsp;&nbsp; Student_Name: <b>VASANTH KANNAN E</b> &nbsp;&nbsp; Course: <b>BACHELOR OF COMMERCE - COMPUTER APPLICATIONS </b> &nbsp;&nbsp; Centre: <b>309_S</b></p>
+                </div>
+                <table>
+                    <thead>
+    <tr>
+    <th style="background-color: #A9A9A9; color: #023020;">Subject Code</th>
+    <th style="background-color: #A9A9A9; color: #023020;">Internal Mark</th>
+    <th style="background-color: #A9A9A9; color: #023020;">External Mark</th>
+    <th style="background-color: #A9A9A9; color: #023020;">Grade</th>
+    <th style="background-color: #A9A9A9; color: #023020;">Result</th>
+</tr>
+
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CCAJC51</td>
+                            <td>15</td>
+                            <td>31</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC52</td>
+                            <td>16</td>
+                            <td>31</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC53</td>
+                            <td>14</td>
+                            <td>27</td>
+                            <td>C++</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC54</td>
+                            <td>18</td>
+                            <td>36</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC5P</td>
+                            <td>17</td>
+                            <td>30</td>
+                            <td>D++</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>CCAJS51</td>
+                            <td>17</td>
+                            <td>30</td>
+                            <td>D++</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>SCSJN51</td>
+                            <td>17</td>
+                            <td>30</td>
+                            <td>D++</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>UNM1048</td>
+                            <td>17</td>
+                            <td>30</td>
+                            <td>D++</td>
+                            <td>P</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><b>P = Pass, RA = Reappear</b></p>
+           
+
+                <table class="grade-table">
+
+                         <h1> Table of Grade Points and Letter Grade <h1>
+        <thead>
+            <tr>
+                <th>RANGE OF MARKS</th>
+                <th>GRADE</th>
+                <th>POINTS</th>
+                <th>LETTER GRADE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>95-100</td>
+                <td>9.5</td>
+                <td>10</td>
+                <td>O+</td>
+            </tr>
+            <tr>
+                <td>90-94</td>
+                <td>9.0</td>
+                <td>9.48</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>85-89</td>
+                <td>8.5</td>
+                <td>8.97</td>
+                <td>D+</td>
+            </tr>
+            <tr>
+                <td>80-84</td>
+                <td>8.0</td>
+                <td>8.47</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>75-79</td>
+                <td>7.5</td>
+                <td>7.97</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>70-74</td>
+                <td>7.0</td>
+                <td>7.46</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>65-69</td>
+                <td>6.5</td>
+                <td>6.96</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>60-64</td>
+                <td>6.0</td>
+                <td>6.45</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>55-59</td>
+                <td>5.5</td>
+                <td>5.94</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>50-54</td>
+                <td>5.0</td>
+                <td>5.44</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td>45-49</td>
+                <td>4.5</td>
+                <td>4.94</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>40-44</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>Absent</td>
+                <td>0</td>
+                <td>0.0</td>
+                <td>AA</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<body>
+    <div class="disclaimer-box">
+        <div class="disclaimer-title">
+            Disclaimer
+        </div>
+        <div class="disclaimer-content">
+            <p>1. The final mark sheets issued by the varsity should only be treated as authentic and final.</p>
+            <p>2. Since the e-foil card entry system has been introduced for November 2024 online examinations, we request all Faculty Members / Principals / Directors to bring, if they find any inadvertent error, to the notice of the Controller of Examinations within a week time to rectify before printing the mark sheets.</p>
+        </div>
+    </div>
+
+
+
+            `
+        },
+
+        'C2C18732': {
+            username: 'C2C18732',
+            captcha: '1234',
+            result: `
+                <div>
+                   
+                    <p>Reg.No.: <b>C2C18732</b> &nbsp;&nbsp; Student_Name: <b>SETHU NARAYANAN M</b> &nbsp;&nbsp; Course: <b>BACHELOR OF COMMERCE - COMPUTER APPLICATIONS</b> &nbsp;&nbsp; Centre: <b>309_S</b></p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Internal Mark</th>
+                            <th>External Mark</th>
+                            <th>Grade</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CCAJC51</td>
+                            <td>17</td>
+                            <td>29</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC52</td>
+                            <td>16</td>
+                            <td>39</td>
+                            <td>B+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC53</td>
+                            <td>16</td>
+                            <td>34</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC54</td>
+                            <td>19</td>
+                            <td>32</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC5P</td>
+                            <td>35</td>
+                            <td>57</td>
+                            <td>O</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>CCAJS51</td>
+                            <td>18</td>
+                            <td>27</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>SCSJN51</td>
+                            <td>20</td>
+                            <td>36</td>
+                            <td>B+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>UNM1048</td>
+                            <td>25</td>
+                            <td>70</td>
+                            <td>O+</td>
+                            <td>P</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><b>P = Pass, RA = Reappear</b></p>
+
+            
+                <table class="grade-table">
+
+                    <h1> Table of Grade Points and Letter Grade <h1>
+        <thead>
+            <tr>
+                <th>RANGE OF MARKS</th>
+                <th>GRADE</th>
+                <th>POINTS</th>
+                <th>LETTER GRADE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>95-100</td>
+                <td>9.5</td>
+                <td>10</td>
+                <td>O+</td>
+            </tr>
+            <tr>
+                <td>90-94</td>
+                <td>9.0</td>
+                <td>9.48</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>85-89</td>
+                <td>8.5</td>
+                <td>8.97</td>
+                <td>D+</td>
+            </tr>
+            <tr>
+                <td>80-84</td>
+                <td>8.0</td>
+                <td>8.47</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>75-79</td>
+                <td>7.5</td>
+                <td>7.97</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>70-74</td>
+                <td>7.0</td>
+                <td>7.46</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>65-69</td>
+                <td>6.5</td>
+                <td>6.96</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>60-64</td>
+                <td>6.0</td>
+                <td>6.45</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>55-59</td>
+                <td>5.5</td>
+                <td>5.94</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>50-54</td>
+                <td>5.0</td>
+                <td>5.44</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td>45-49</td>
+                <td>4.5</td>
+                <td>4.94</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>40-44</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>Absent</td>
+                <td>0</td>
+                <td>0.0</td>
+                <td>AA</t29
+            </tr>
+        </tbody>
+    </table>
+</body>
+ <div class="disclaimer-box">
+        <div class="disclaimer-title">
+            Disclaimer
+        </div>
+        <div class="disclaimer-content">
+            <p>1. The final mark sheets issued by the varsity should only be treated as authentic and final.</p>
+            <p>2. Since the e-foil card entry system has been introduced for November 2024 online examinations, we request all Faculty Members / Principals / Directors to bring, if they find any inadvertent error, to the notice of the Controller of Examinations within a week time to rectify before printing the mark sheets.</p>
+        </div>
+    </div>
+
+
+
+            `
+        },
+        
+        'C2C18729': {
+            username: 'C2C18729',
+            captcha: '1234',
+            result: `
+                <div>
+                  
+                    <p>Reg.No.: <b>C2C18729</b> &nbsp;&nbsp; Student_Name: <b>SAKTHISARAVANAKANI A</b> &nbsp;&nbsp; Course: <b>BACHELOR OF COMMERCE - COMPUTER APPLICATIONS </b> &nbsp;&nbsp; Centre: <b>309_S</b></p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Internal Mark</th>
+                            <th>External Mark</th>
+                            <th>Grade</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CCAJC51</td>
+                            <td>19</td>
+                            <td>33</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC52</td>
+                            <td>17</td>
+                            <td>32</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC53</td>
+                            <td>17</td>
+                            <td>35</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC54</td>
+                            <td>18</td>
+                            <td>28</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC5P</td>
+                            <td>36</td>
+                            <td>53</td>
+                            <td>D++</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>CCAJS51</td>
+                            <td>17</td>
+                            <td>31</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>SCSJN51</td>
+                            <td>17</td>
+                            <td>35</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>UNM1048</td>
+                            <td>25</td>
+                            <td>75</td>
+                            <td>O+</td>
+                            <td>P</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><b>P = Pass, RA = Reappear</b></p>
+
+                <table class="grade-table">
+
+                    <h1> Table of Grade Points and Letter Grade <h1>
+        <thead>
+            <tr>
+                <th>RANGE OF MARKS</th>
+                <th>GRADE</th>
+                <th>POINTS</th>
+                <th>LETTER GRADE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>95-100</td>
+                <td>9.5</td>
+                <td>10</td>
+                <td>O+</td>
+            </tr>
+            <tr>
+                <td>90-94</td>
+                <td>9.0</td>
+                <td>9.48</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>85-89</td>
+                <td>8.5</td>
+                <td>8.97</td>
+                <td>D+</td>
+            </tr>
+            <tr>
+                <td>80-84</td>
+                <td>8.0</td>
+                <td>8.47</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>75-79</td>
+                <td>7.5</td>
+                <td>7.97</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>70-74</td>
+                <td>7.0</td>
+                <td>7.46</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>65-69</td>
+                <td>6.5</td>
+                <td>6.96</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>60-64</td>
+                <td>6.0</td>
+                <td>6.45</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>55-59</td>
+                <td>5.5</td>
+                <td>5.94</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>50-54</td>
+                <td>5.0</td>
+                <td>5.44</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td>45-49</td>
+                <td>4.5</td>
+                <td>4.94</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>40-44</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>Absent</td>
+                <td>0</td>
+                <td>0.0</td>
+                <td>AA</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+ <div class="disclaimer-box">
+        <div class="disclaimer-title">
+            Disclaimer
+        </div>
+        <div class="disclaimer-content">
+            <p>1. The final mark sheets issued by the varsity should only be treated as authentic and final.</p>
+            <p>2. Since the e-foil card entry system has been introduced for November 2024 online examinations, we request all Faculty Members / Principals / Directors to bring, if they find any inadvertent error, to the notice of the Controller of Examinations within a week time to rectify before printing the mark sheets.</p>
+        </div>
+    </div>
+
+
+
+            `
+        },
+        'C2C18719': {
+            username: 'C2C18719',
+            captcha: '1234',
+            result: `
+                <div>
+                  
+                    <p>Reg.No.: <b>C2C18719</b> &nbsp;&nbsp; Student_Name: <b>MUTHUSELVAN C</b> &nbsp;&nbsp; Course: <b>BACHELOR OF COMMERCE - COMPUTER APPLICATIONS</b> &nbsp;&nbsp; Centre: <b>309_S</b></p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Internal Mark</th>
+                            <th>External Mark</th>
+                            <th>Grade</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CCAJC51</td>
+                            <td>17</td>
+                            <td>48</td>
+                            <td>A+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC52</td>
+                            <td>16</td>
+                            <td>32</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC53</td>
+                            <td>17</td>
+                            <td>37</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC54</td>
+                            <td>19</td>
+                            <td>31</td>
+                            <td>B</td>
+                            <td>P</td>
+                        </tr>
+                        <tr>
+                            <td>CCAJC5P</td>
+                            <td>40</td>
+                            <td>57</td>
+                            <td>O+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>CCAJS51</td>
+                            <td>18</td>
+                            <td>27</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>SCSJN51</td>
+                            <td>18</td>
+                            <td>30</td>
+                            <td>C+</td>
+                            <td>P</td>
+                        </tr>
+                         <tr>
+                            <td>UNM1048</td>
+                            <td>25</td>
+                            <td>75</td>
+                            <td>O+</td>
+                            <td>P</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><b>P = Pass, RA = Reappear</b></p>
+
+                <table class="grade-table">
+
+                    <h1> Table of Grade Points and Letter Grade <h1>
+
+        <thead>
+            <tr>
+                <th>RANGE OF MARKS</th>
+                <th>GRADE</th>
+                <th>POINTS</th>
+                <th>LETTER GRADE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>95-100</td>
+                <td>9.5</td>
+                <td>10</td>
+                <td>O+</td>
+            </tr>
+            <tr>
+                <td>90-94</td>
+                <td>9.0</td>
+                <td>9.48</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>85-89</td>
+                <td>8.5</td>
+                <td>8.97</td>
+                <td>D+</td>
+            </tr>
+            <tr>
+                <td>80-84</td>
+                <td>8.0</td>
+                <td>8.47</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>75-79</td>
+                <td>7.5</td>
+                <td>7.97</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>70-74</td>
+                <td>7.0</td>
+                <td>7.46</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>65-69</td>
+                <td>6.5</td>
+                <td>6.96</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>60-64</td>
+                <td>6.0</td>
+                <td>6.45</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>55-59</td>
+                <td>5.5</td>
+                <td>5.94</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>50-54</td>
+                <td>5.0</td>
+                <td>5.44</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td>45-49</td>
+                <td>4.5</td>
+                <td>4.94</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>40-44</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>Absent</td>
+                <td>0</td>
+                <td>0.0</td>
+                <td>AA</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+ <div class="disclaimer-box">
+        <div class="disclaimer-title">
+            Disclaimer
+        </div>
+        <div class="disclaimer-content">
+            <p>1. The final mark sheets issued by the varsity should only be treated as authentic and final.</p>
+            <p>2. Since the e-foil card entry system has been introduced for November 2024 online examinations, we request all Faculty Members / Principals / Directors to bring, if they find any inadvertent error, to the notice of the Controller of Examinations within a week time to rectify before printing the mark sheets.</p>
+        </div>
+    </div>
+
+
+
+            `
+        }
+    };
+
+    // Function to generate random CAPTCHA
+    function generateCaptcha() {
+        const captcha = Math.floor(Math.random() * 10000).toString();
+        document.getElementById('captcha-text').textContent = captcha;
+        return captcha;
+    }
+
+    // Handle login form submission
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const username = document.getElementById('username').value;
+        const captcha = document.getElementById('captcha').value;
+        const user = users[username];
+
+        // Check if the entered CAPTCHA matches
+        if (user && captcha === document.getElementById('captcha-text').textContent) {
+            // Switch to the result display page
+            document.getElementById('login-container').style.display = 'none';
+            document.getElementById('result-container').style.display = 'block';
+
+            // Display the user's result table
+            document.getElementById('result-content').innerHTML = user.result;
+        } else {
+            document.getElementById('error-message').textContent = 'Incorrect username,  or CAPTCHA';
+        }
+    });
+
+    // Handle logout
+    document.getElementById('logout-btn').addEventListener('click', function() {
+        // Switch back to the login form
+        document.getElementById('login-container').style.display = 'block';
+        document.getElementById('result-container').style.display = 'none';
+
+        // Clear the input fields
+        document.getElementById('username').value = '';
+        document.getElementById('captcha').value = '';
+
+        // Generate a new CAPTCHA for the next login attempt
+        generateCaptcha();
+
+        // Optionally, clear any error message
+        document.getElementById('error-message').textContent = '';
+    });
+
+    // On page load, generate CAPTCHA
+    window.onload = function() {
+        generateCaptcha();
+    };
+</script>
+
+</body>
+</html>
